@@ -115,7 +115,7 @@ footer img {
 }
 @media only screen and (max-width: 1024px) {
   header {
-    paddint-top: 0px;
+    padding-top: 0px;
     height: 22rem;
   }
   nav.container {
@@ -128,5 +128,83 @@ footer img {
   }
   .main-banner h1 {
     font-size: 1.33rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  header {
+    height: 17rem;
+    background-position: 20%;
+  }
+  nav.container{
+    min-width: 100%;
+  }
+  nav span {
+    display: none;
+  }
+  .expanded-menu {
+    display: none;
+  }
+  .truncated-menu {
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  .main-banner {
+    margin-top: 9rem;
+    min-width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    height: 2rem;
+  }
+  .main-banner h1 {
+    margin: 0 auto;
+    text-align: center;
+  }
+ .supporting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.77rem;
+    min-width: 100%;
+    padding-top: 3.77rem;
+    padding-bottom: 3.77rem;
+  }
+  header .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service {
+    margin-top: 1.54rem;
+    height: 5rem;
+  }
+  .service img {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .service div {
+    padding-top: 1rem;
+  }
+  section.supporting.container {
+    padding-top: 0px;
+  }
+  .info {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .info p {
+    padding: 1rem 1rem 4rem 1rem;
+  }
+  .title {
+    max-width: 100%;
+    padding: .5rem 1.25rem;
+    text-align: center;
+  }
+  footer img {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  footer div {
+    display: none;
   }
 }
